@@ -84,6 +84,7 @@ li a:hover {
 /*  */
 
 .content {
+  position: relative;
   width: 960px;
   border: 5px solid green;
   margin: 2% auto;
@@ -118,10 +119,16 @@ hr {
   widows: 60%;
 }
 /*  */
+hr:nth-child(2) {
+  margin: 0;
+  padding: 5px;
+  color: #4aaaa5;
+}
 .foot {
   background-color: #666666;
-  position: relative;
+  position: absolute;
   bottom: 0;
-  padding: 15px;
+  width: 100vw;
+  padding: 10px;
   text-align: center;
 }
