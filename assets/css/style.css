@@ -45,6 +45,7 @@ body {
   clear: both;
   padding: 25px;
 }
+
 .contact {
   padding: 25px;
 }
@@ -92,6 +93,7 @@ li a:hover {
 
 h2 {
   color: #4aaaa5;
+  font-family: "Georgia", Times, "Times New Roman", serif;
 }
 
 .aLine {
@@ -129,8 +131,11 @@ p {
   border-top: 8px solid #4aaaa5;
   color: white;
 }
+
 /* contact form */
+
 .inputGroup {
   width: 100%;
-  padding: 5px;
+  margin: 5px auto;
+  padding-bottom: 8px;
 }
