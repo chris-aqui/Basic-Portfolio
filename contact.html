@@ -31,19 +31,26 @@
     <!--  -->
     <div class="content">
       <!-- Content here -->
-      <h2>Contact</h2>
-      <hr class="aLine">
-      <form class="comms" action="mailto:christine.aqui@mail.utoronto.ca" method: "post">
-        <label for="name">Name:</label>
-        <br>
-        <input type="text" name="name" placeholder="Enter your Name here" required>
-        <br>
-        <label for="email">Email:</label>
-        <br>
-        <input type="type" name="email" placeholder="Enter your email here" required>
-        <br>
+      <section class="contact">
+        <h2>Contact</h2>
+        <hr class="aLine">
+        <form class="comms" action="mailto:christine.aqui@mail.utoronto.ca" method: "post">
+          <label for="name">Name:</label>
+          <br>
+          <input class="inputGroup" type="text" name="name" placeholder="Jane Smith" required>
+          <br>
+          <label for="email">Email:</label>
+          <br>
+          <input class="inputGroup" type="email" name="email" placeholder="exmple@gmail.com" required>
+          <br>
+          <label for="message">Message:</label>
+          <br>
+          <textarea class="inputGroup" name="message" rows="5" cols="50" required> </textarea>
+          <br>
+          <input type="submit" value="Submit">
 
-      </form>
+        </form>
+      </section>
       <!-- Content ends here -->
     </div>
     <!-- <hr class="bLine"> -->

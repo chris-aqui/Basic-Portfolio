@@ -6,7 +6,9 @@ body {
   color: #777777;
   width: 100vw;
   height: 100vh;
-  background-image: url("../images/dust_scratches.png");
+  /* background-image: url("../images/dust_scratches.png"); */
+  /* background-image: url("../images/natural_paper.png"); */
+  background-image: url("../images/textured_paper.png");
 }
 
 /* Master container */
@@ -14,15 +16,13 @@ body {
 .container {
   margin: 0 auto;
   width: 100vw;
-  height: 100vh;
-  background-image: url("../images/dust_scratches.png");
 }
 
 /* Header */
 
 .head {
   background-color: #ffffff;
-  width: 100vw;
+  /* width: 100vw; */
   font-family: "Georgia", Times, "Times New Roman", serif;
   border: 2px solid #cccccc;
 }
@@ -30,7 +30,6 @@ body {
 .heading {
   width: 960px;
   margin: 0 auto;
-  /* border: 5px solid red; */
 }
 
 .logo {
@@ -44,7 +43,10 @@ body {
 
 .about {
   clear: both;
-  padding: 20px;
+  padding: 25px;
+}
+.contact {
+  padding: 25px;
 }
 
 /*  */
@@ -59,7 +61,6 @@ ul {
 
 li {
   float: left;
-  /* padding: auto; */
   text-align: center;
   padding: 30px 16px;
 }
@@ -69,15 +70,12 @@ li a {
   display: block;
   color: #777777;
   text-align: center;
-  /* padding: 30px 16px; */
   text-decoration: none;
 }
 
 .move-right {
   padding-left: 460px;
 }
-
-/* Change the link color to #111 (black) on hover */
 
 li a:hover {
   background-color: #111;
@@ -86,7 +84,6 @@ li a:hover {
 /*  */
 
 .content {
-  /* position: relative; */
   width: 960px;
   border: 1px solid #dddddd;
   margin: 8% auto;
@@ -127,7 +124,13 @@ p {
   position: absolute;
   bottom: 0;
   width: 100vw;
-  padding: 10px;
+  /* padding: 10px; */
   text-align: center;
   border-top: 8px solid #4aaaa5;
+  color: white;
+}
+/* contact form */
+.inputGroup {
+  width: 100%;
+  padding: 5px;
 }
