@@ -141,18 +141,38 @@ p {
   background-color: slateblue;
 }
 
-.card {
-  width: 200px;
-  padding: 10px;
-  float: left;
-}
-
 .portext {
   width: 200px;
   background-color: teal;
   color: white;
   padding: 12px 0;
   text-align: center;
+  margin: 0;
+}
+
+.imgBox {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+.portImg1 {
+  float: left;
+  /* padding: 20px; */
+}
+
+.portext1 {
+  position: relative;
+  left: -200px;
+  top: 140px;
+  float: left;
+}
+
+.portext2 {
+  position: relative;
+  left: -200px;
+  top: 140px;
+  float: left;
 }
 
 .foot {
