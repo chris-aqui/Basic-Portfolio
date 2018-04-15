@@ -55,7 +55,7 @@ body {
 /* .leftSide {
   padding: 5px;
   width: 100%;
-  border: 1px solid #dddddd;
+  /* border: 1px solid #dddddd; */
   margin: 0;
 } */
 
@@ -228,6 +228,7 @@ p {
   color: white;
   clear: both;
 }
+<<<<<<< HEAD
 /*  */
 .mainSpace {
   width: 960px;
@@ -246,3 +247,5 @@ p {
   background-color: #ffffff;
   padding: 2%;
 }
+=======
+>>>>>>> 859f6ae242289913fe5d503328025d18dfd3d6df
